@@ -2,10 +2,11 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QsqlDatabase>
-#include <QDebug>
+#include <QSqlDatabase>
 #include <QSqlQuery>
 #include <QSqlTableModel>
+#include <QLabel> // Добавьте эту строку
+#include <QTimer>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -22,11 +23,13 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_clicked();
-
-    void on_pushButton_2_clicked();
-
+    void on_addContactButton_clicked();
+    void on_removeContactButton_clicked();
+    void on_searchLineEdit_textChanged(const QString &text);
     void on_tableView_clicked(const QModelIndex &index);
+
+
+    void applyFilter();
 
 private:
     Ui::MainWindow *ui;
@@ -34,6 +37,11 @@ private:
     QSqlQuery *query;
     QSqlTableModel *model;
 
-    int row;
+    int currentRow;
+    QTimer *filterTimer;
+    QString pendingFilter;
+
+    void displayContactImage(const QModelIndex &index); // Добавьте эту строку
 };
+
 #endif // MAINWINDOW_H
