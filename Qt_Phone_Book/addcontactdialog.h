@@ -15,8 +15,8 @@ public:
     explicit AddContactDialog(QWidget *parent = nullptr);
     ~AddContactDialog();
 
-    QString getFirstName() const;
     QString getLastName() const;
+    QString getFirstName() const;
     QString getTelephone() const;
     QByteArray getPhoto() const;
 

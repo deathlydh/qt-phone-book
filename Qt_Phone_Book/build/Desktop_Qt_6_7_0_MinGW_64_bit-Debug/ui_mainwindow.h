@@ -41,6 +41,7 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
         MainWindow->resize(865, 638);
+        MainWindow->setMaximumSize(QSize(865, 638));
         QIcon icon;
         icon.addFile(QString::fromUtf8("../../../../../Downloads/icons8-\321\202\320\265\320\273\320\265\321\204\320\276\320\275\320\275\320\260\321\217-\320\272\320\275\320\270\320\263\320\260-50.png"), QSize(), QIcon::Normal, QIcon::Off);
         MainWindow->setWindowIcon(icon);

@@ -10,6 +10,12 @@
     <height>638</height>
    </rect>
   </property>
+  <property name="maximumSize">
+   <size>
+    <width>865</width>
+    <height>638</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>Телефонная книга</string>
   </property>

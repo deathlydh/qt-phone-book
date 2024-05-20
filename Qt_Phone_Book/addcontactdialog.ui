@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string/>
   </property>
   <widget class="QLineEdit" name="telephoneLineEdit">
    <property name="geometry">
@@ -24,32 +24,6 @@
    </property>
    <property name="placeholderText">
     <string>Введите номер телефона</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="firstNameLineEdit">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>50</y>
-     <width>361</width>
-     <height>24</height>
-    </rect>
-   </property>
-   <property name="placeholderText">
-    <string>Введите имя</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lastNameLineEdit">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>90</y>
-     <width>361</width>
-     <height>24</height>
-    </rect>
-   </property>
-   <property name="placeholderText">
-    <string>Введите фамилию</string>
    </property>
   </widget>
   <widget class="QPushButton" name="addPhotoButton">
@@ -92,6 +66,32 @@
    </property>
    <property name="textFormat">
     <enum>Qt::PlainText</enum>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lastNameLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>361</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Введите фамилию</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="firstNameLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>361</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Введите имя</string>
    </property>
   </widget>
  </widget>

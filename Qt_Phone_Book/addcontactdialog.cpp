@@ -3,12 +3,18 @@
 #include <QFileDialog>
 #include <QMessageBox>
 #include <QBuffer>
+#include <QRegularExpressionValidator>
 
 AddContactDialog::AddContactDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::AddContactDialog)
 {
     ui->setupUi(this);
+    this->setFixedSize(400, 300);
+
+    // Установка валидатора для поля телефона
+    QRegularExpression regExp("[+0-9]*");
+    ui->telephoneLineEdit->setValidator(new QRegularExpressionValidator(regExp, this));
 }
 
 AddContactDialog::~AddContactDialog()
@@ -16,14 +22,14 @@ AddContactDialog::~AddContactDialog()
     delete ui;
 }
 
-QString AddContactDialog::getFirstName() const
-{
-    return ui->firstNameLineEdit->text();
-}
-
 QString AddContactDialog::getLastName() const
 {
     return ui->lastNameLineEdit->text();
+}
+
+QString AddContactDialog::getFirstName() const
+{
+    return ui->firstNameLineEdit->text();
 }
 
 QString AddContactDialog::getTelephone() const
@@ -56,5 +62,5 @@ void AddContactDialog::on_saveButton_clicked()
         QMessageBox::warning(this, tr("Error"), tr("Please fill in all fields."));
         return;
     }
-    accept(); // Закрываем диалог с кодом успешного завершения
+    accept();
 }
