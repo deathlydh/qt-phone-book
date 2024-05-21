@@ -10,7 +10,7 @@ AddContactDialog::AddContactDialog(QWidget *parent) :
     ui(new Ui::AddContactDialog)
 {
     ui->setupUi(this);
-    //this->setFixedSize(400, 300);
+    this->setFixedSize(400, 300);
 
     // Установка валидатора для поля телефона
     QRegularExpression regExp("[+0-9]*");

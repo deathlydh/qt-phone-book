@@ -11,7 +11,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    //this->setFixedSize(865, 638);
+    this->setFixedSize(865, 638);
 
     // Инициализация базы данных
     db = QSqlDatabase::addDatabase("QSQLITE");
