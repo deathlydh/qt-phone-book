@@ -10,7 +10,7 @@ AddContactDialog::AddContactDialog(QWidget *parent) :
     ui(new Ui::AddContactDialog)
 {
     ui->setupUi(this);
-    this->setFixedSize(400, 300);
+    //this->setFixedSize(400, 300);
 
     // Установка валидатора для поля телефона
     QRegularExpression regExp("[+0-9]*");
@@ -48,7 +48,7 @@ void AddContactDialog::on_addPhotoButton_clicked()
     if (!fileName.isEmpty()) {
         QImage image(fileName);
         if (!image.isNull()) {
-            QImage smallImage = image.scaled(100, 100, Qt::KeepAspectRatio, Qt::SmoothTransformation);
+            QImage smallImage = image.scaled(1000, 1000, Qt::KeepAspectRatio, Qt::SmoothTransformation);
             QBuffer buffer(&photoData);
             buffer.open(QIODevice::WriteOnly);
             smallImage.save(&buffer, "PNG");

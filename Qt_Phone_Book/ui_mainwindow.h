@@ -12,6 +12,7 @@
 #include <QtCore/QVariant>
 #include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
@@ -31,6 +32,8 @@ public:
     QLineEdit *searchLineEdit;
     QTableView *tableView;
     QLabel *contactImageLabel;
+    QWidget *widget;
+    QHBoxLayout *horizontalLayout;
     QPushButton *addContactButton;
     QPushButton *removeContactButton;
     QMenuBar *menubar;
@@ -41,6 +44,7 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
         MainWindow->resize(865, 638);
+        MainWindow->setMaximumSize(QSize(865, 638));
         QIcon icon;
         icon.addFile(QString::fromUtf8("../../../../../Downloads/icons8-\321\202\320\265\320\273\320\265\321\204\320\276\320\275\320\275\320\260\321\217-\320\272\320\275\320\270\320\263\320\260-50.png"), QSize(), QIcon::Normal, QIcon::Off);
         MainWindow->setWindowIcon(icon);
@@ -56,12 +60,22 @@ public:
         contactImageLabel = new QLabel(centralwidget);
         contactImageLabel->setObjectName("contactImageLabel");
         contactImageLabel->setGeometry(QRect(360, 40, 461, 411));
-        addContactButton = new QPushButton(centralwidget);
+        widget = new QWidget(centralwidget);
+        widget->setObjectName("widget");
+        widget->setGeometry(QRect(10, 520, 841, 71));
+        horizontalLayout = new QHBoxLayout(widget);
+        horizontalLayout->setObjectName("horizontalLayout");
+        horizontalLayout->setContentsMargins(0, 0, 0, 0);
+        addContactButton = new QPushButton(widget);
         addContactButton->setObjectName("addContactButton");
-        addContactButton->setGeometry(QRect(560, 560, 131, 24));
-        removeContactButton = new QPushButton(centralwidget);
+
+        horizontalLayout->addWidget(addContactButton);
+
+        removeContactButton = new QPushButton(widget);
         removeContactButton->setObjectName("removeContactButton");
-        removeContactButton->setGeometry(QRect(719, 560, 131, 24));
+
+        horizontalLayout->addWidget(removeContactButton);
+
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");

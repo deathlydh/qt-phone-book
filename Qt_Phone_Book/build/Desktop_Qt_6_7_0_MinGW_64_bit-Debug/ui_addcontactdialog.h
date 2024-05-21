@@ -38,10 +38,10 @@ public:
         telephoneLineEdit->setGeometry(QRect(10, 130, 361, 24));
         addPhotoButton = new QPushButton(AddContactDialog);
         addPhotoButton->setObjectName("addPhotoButton");
-        addPhotoButton->setGeometry(QRect(10, 180, 91, 24));
+        addPhotoButton->setGeometry(QRect(150, 190, 91, 24));
         saveButton = new QPushButton(AddContactDialog);
         saveButton->setObjectName("saveButton");
-        saveButton->setGeometry(QRect(130, 170, 80, 24));
+        saveButton->setGeometry(QRect(220, 180, 80, 24));
         text = new QLabel(AddContactDialog);
         text->setObjectName("text");
         text->setGeometry(QRect(140, 10, 131, 31));

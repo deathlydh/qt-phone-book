@@ -504,20 +504,13 @@ debug/moc_mainwindow.cpp: mainwindow.h \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/qtsqlglobal.h \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/qtsql-config.h \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/qtsqlexports.h \
+		C:/Qt/6.7.0/mingw_64/include/QtCore/QDebug \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/QSqlQuery \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/qsqlquery.h \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/QSqlTableModel \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/qsqltablemodel.h \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/qsqlquerymodel.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/qabstractitemmodel.h \
-		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QLabel \
-		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
-		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qframe.h \
-		C:/Qt/6.7.0/mingw_64/include/QtGui/qpicture.h \
-		C:/Qt/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
-		C:/Qt/6.7.0/mingw_64/include/QtCore/QTimer \
-		C:/Qt/6.7.0/mingw_64/include/QtCore/qtimer.h \
-		C:/Qt/6.7.0/mingw_64/include/QtCore/qbasictimer.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.7.0/mingw_64/bin/moc.exe
 	C:\Qt\6.7.0\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/mrart/OneDrive/Документы/Fork/qt-phone-book/Qt_Phone_Book/debug/moc_predefs.h -IC:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -IC:/Users/mrart/OneDrive/Документы/Fork/qt-phone-book/Qt_Phone_Book -IC:/Qt/6.7.0/mingw_64/include -IC:/Qt/6.7.0/mingw_64/include/QtWidgets -IC:/Qt/6.7.0/mingw_64/include/QtGui -IC:/Qt/6.7.0/mingw_64/include/QtSql -IC:/Qt/6.7.0/mingw_64/include/QtCore -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include mainwindow.h -o debug\moc_mainwindow.cpp
@@ -738,6 +731,23 @@ debug/addcontactdialog.o: addcontactdialog.cpp addcontactdialog.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.7.0/mingw_64/include/QtGui/qguiapplication_platform.h \
 		ui_addcontactdialog.h \
+		C:/Qt/6.7.0/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QLabel \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qpicture.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QLineEdit \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlineedit.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qpen.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractbutton.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QFileDialog \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qfiledialog.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/qdir.h \
@@ -751,7 +761,10 @@ debug/addcontactdialog.o: addcontactdialog.cpp addcontactdialog.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qmessagebox.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/QBuffer \
-		C:/Qt/6.7.0/mingw_64/include/QtCore/qbuffer.h
+		C:/Qt/6.7.0/mingw_64/include/QtCore/qbuffer.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/QRegularExpressionValidator \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qvalidator.h \
+		C:/Qt/6.7.0/mingw_64/include/QtCore/qregularexpression.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\addcontactdialog.o addcontactdialog.cpp
 
 debug/main.o: main.cpp mainwindow.h \
@@ -948,20 +961,13 @@ debug/main.o: main.cpp mainwindow.h \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/qtsqlglobal.h \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/qtsql-config.h \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/qtsqlexports.h \
+		C:/Qt/6.7.0/mingw_64/include/QtCore/QDebug \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/QSqlQuery \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/qsqlquery.h \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/QSqlTableModel \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/qsqltablemodel.h \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/qsqlquerymodel.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/qabstractitemmodel.h \
-		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QLabel \
-		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
-		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qframe.h \
-		C:/Qt/6.7.0/mingw_64/include/QtGui/qpicture.h \
-		C:/Qt/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
-		C:/Qt/6.7.0/mingw_64/include/QtCore/QTimer \
-		C:/Qt/6.7.0/mingw_64/include/QtCore/qtimer.h \
-		C:/Qt/6.7.0/mingw_64/include/QtCore/qbasictimer.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QApplication \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qapplication.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\main.o main.cpp
@@ -1160,21 +1166,58 @@ debug/mainwindow.o: mainwindow.cpp mainwindow.h \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/qtsqlglobal.h \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/qtsql-config.h \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/qtsqlexports.h \
+		C:/Qt/6.7.0/mingw_64/include/QtCore/QDebug \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/QSqlQuery \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/qsqlquery.h \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/QSqlTableModel \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/qsqltablemodel.h \
 		C:/Qt/6.7.0/mingw_64/include/QtSql/qsqlquerymodel.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/qabstractitemmodel.h \
+		ui_mainwindow.h \
+		C:/Qt/6.7.0/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/QIcon \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QHeaderView \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qheaderview.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractitemview.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.7.0/mingw_64/include/QtCore/qitemselectionmodel.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qstyleoption.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qvalidator.h \
+		C:/Qt/6.7.0/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qslider.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractslider.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qstyle.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtabbar.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qrubberband.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QLabel \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
-		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qframe.h \
 		C:/Qt/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		C:/Qt/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
-		C:/Qt/6.7.0/mingw_64/include/QtCore/QTimer \
-		C:/Qt/6.7.0/mingw_64/include/QtCore/qtimer.h \
-		C:/Qt/6.7.0/mingw_64/include/QtCore/qbasictimer.h \
-		ui_mainwindow.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QLineEdit \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlineedit.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qpen.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QMenuBar \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qmenubar.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qmenu.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractbutton.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QStatusBar \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qstatusbar.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QTableView \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtableview.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QWidget \
+		addcontactdialog.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QDialog \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qdialog.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QFileDialog \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qfiledialog.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/qdir.h \
@@ -1184,9 +1227,9 @@ debug/mainwindow.o: mainwindow.cpp mainwindow.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/qdatetime.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/qcalendar.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/qtimezone.h \
-		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qdialog.h \
-		C:/Qt/6.7.0/mingw_64/include/QtCore/QBuffer \
-		C:/Qt/6.7.0/mingw_64/include/QtCore/qbuffer.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
 		C:/Qt/6.7.0/mingw_64/include/QtGui/QImageReader \
 		C:/Qt/6.7.0/mingw_64/include/QtGui/qimagereader.h \
 		C:/Qt/6.7.0/mingw_64/include/QtGui/qimageiohandler.h \
@@ -1196,15 +1239,9 @@ debug/mainwindow.o: mainwindow.cpp mainwindow.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/qjsonvalue.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/qcborvalue.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/qcborcommon.h \
-		C:/Qt/6.7.0/mingw_64/include/QtCore/qregularexpression.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/quuid.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/q20algorithm.h \
-		C:/Qt/6.7.0/mingw_64/include/QtCore/qfactoryinterface.h \
-		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
-		addcontactdialog.h \
-		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QDialog
+		C:/Qt/6.7.0/mingw_64/include/QtCore/qfactoryinterface.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mainwindow.o mainwindow.cpp
 
 debug/moc_addcontactdialog.o: debug/moc_addcontactdialog.cpp 

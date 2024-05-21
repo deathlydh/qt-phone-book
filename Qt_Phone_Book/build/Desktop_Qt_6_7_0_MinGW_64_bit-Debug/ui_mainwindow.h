@@ -59,10 +59,10 @@ public:
         contactImageLabel->setGeometry(QRect(360, 40, 461, 411));
         addContactButton = new QPushButton(centralwidget);
         addContactButton->setObjectName("addContactButton");
-        addContactButton->setGeometry(QRect(560, 560, 131, 24));
+        addContactButton->setGeometry(QRect(270, 490, 131, 24));
         removeContactButton = new QPushButton(centralwidget);
         removeContactButton->setObjectName("removeContactButton");
-        removeContactButton->setGeometry(QRect(719, 560, 131, 24));
+        removeContactButton->setGeometry(QRect(480, 490, 131, 24));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
